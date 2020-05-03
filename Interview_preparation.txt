@@ -1,0 +1,26 @@
+Database:
+
+  Creation:
+    create databse db_name;
+    create database if not exists db_name;
+  Alter:
+    alter database db_name rename to db_name1;
+  Describe:
+    desc db_name;
+    describe db_name;
+    describe formatted db_name;
+    describe extended db_name;
+  Comment:
+    create database db_name comment "this is a db";
+  DB Properties:
+    create database if not exists db_name with dbproperties('creator'='shakti','date'='2020-05-02');
+  List the databases:
+    show databases;
+  Use a database:
+    use db_name;
+  Dropping a database:
+    drop database if exists dn_name;
+    
+ Table:
+ 
+  
